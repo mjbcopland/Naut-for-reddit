@@ -14,7 +14,7 @@
 		background-color: #eee;
 		min-width: 920px;
 	}
-		
+
 		/* General Styles - Links / Buttons / Inputs */
 		a {
 			color: #24a0ed;
@@ -121,8 +121,8 @@
 					transition: all 0.15s ease;
 				}
 
-					#sr-header-area:hover .sr-bar a, 
-					#sr-header-area:hover #sr-more-link, 
+					#sr-header-area:hover .sr-bar a,
+					#sr-header-area:hover #sr-more-link,
 					#sr-header-area:hover .seperator,
 					#sr-header-area:hover .dropdown.srdrop .selected {color: rgba(255,255,255,0.8);}
 
@@ -509,7 +509,7 @@
 
 
 						/* Vote Radius */
-						
+
 
 					/* Thumbnails */
 					.thumbnail {
@@ -608,13 +608,13 @@
 
 						.expando-button.selftext.collapsed 					{background-position: -00px -48px!important;}
 						.expando-button.selftext.collapsed:hover 			{background-position: -16px -48px!important;}
-			
+
 						.expando-button.selftext.expanded 					{background-position: -32px -48px!important;}
 						.expando-button.selftext.expanded:hover 			{background-position: -48px -48px!important;}
-			
+
 						.expando-button.video.collapsed 					{background-position: -64px -48px!important;}
 						.expando-button.video.collapsed:hover				{background-position: -80px -48px!important;}
-			
+
 						.expando-button.video.expanded 						{background-position: -32px -48px!important;}
 						.expando-button.video.expanded:hover 				{background-position: -48px -48px!important;}
 
@@ -634,7 +634,7 @@
 						.expando-button.video-muted.collapsed:hover			{background-position: -80px -64px!important;}
 
 						.expando-button.video-muted.expanded				{background-position: -32px -48px!important;}
-						.expando-button.video-muted.expanded:hover			{background-position: -48px -48px!important;} 
+						.expando-button.video-muted.expanded:hover			{background-position: -48px -48px!important;}
 
 
 					/* Expando Text */
@@ -680,7 +680,7 @@
 						}
 
 							.link .entry .tagline .userattrs a.moderator {background-color: #27b062;}
-							
+
 
                                                 .RESUserTagImage::after { display: none }
 						.RESUserTagImage {
@@ -714,7 +714,7 @@
 							font-family: Arial, sans-serif;
 							transition: all 0.15s ease;
 						}
-		
+
 							.link .entry .buttons li a:hover {color: #24a0ed;text-decoration: none;}
 
 							.entry .buttons li.nsfw-stamp {padding: 0;border-radius: 0;border: none !important;}
@@ -724,7 +724,7 @@
 								border-radius: 0px;
 								border: 0px;
 							}
-		
+
 								.nsfw-stamp acronym {
 									position:relative;
 									top: -1px;
@@ -736,7 +736,7 @@
 									cursor: help;
 								}
 
-		
+
 							.link .entry .buttons li a.comments {
 								color: #24a0ed;
 								font-weight: bold !important;
@@ -889,10 +889,10 @@
 
 					/* Sticky Post */
 					.thing.stickied {
-						
+
 					}
 
-						.thing.link.stickied a.title, .thing.link.stickied a, .thing.link.stickied .entry li .comments {color: #27b062!important;}					
+						.thing.link.stickied a.title, .thing.link.stickied a, .thing.link.stickied .entry li .comments {color: #27b062!important;}
 						.thing.link.stickied .expando-button:hover {background-color: #27b062!important;border-color: #27b062!important;}
 						.tagline .stickied-tagline {color: #b3b3b3;cursor: help;}
 
@@ -920,14 +920,14 @@
 
 							}
 
-						.organic-listing {  
-							background-color: white!important;  
-							padding: 0;  
-							position: relative;  
-							margin-bottom: 0px;  
-							border: none;  
-							border-radius: 2px 2px 0px 0px; 
-						} 
+						.organic-listing {
+							background-color: white!important;
+							padding: 0;
+							position: relative;
+							margin-bottom: 0px;
+							border: none;
+							border-radius: 2px 2px 0px 0px;
+						}
 							.organic-listing .link, .organic-listing .link.compressed, .organic-listing .link.promotedlink {
 								padding: 16px;
 								background-color: transparent;
@@ -1031,14 +1031,14 @@
 									color: #24a0ed !important;
 									cursor: default;
 								}
-		
+
 								.flairselector form .flairselection .flairremove {
 									padding: 4px 0px;
 									margin-bottom: 8px;
 									visibility: hidden;
 									display: block !important;
 								}
-		
+
 									.flairselector form .flairselection .flairremove a {
 										visibility: visible;
 										opacity: 100 !important;
@@ -1048,7 +1048,7 @@
 									}
 
 										.flairselector form .flairselection .flairremove a:first-letter {text-transform: capitalize;}
-		
+
 										.flairselector form .flairselection .flairremove a:hover {text-decoration: underline !important;}
                                                                 .flairselector .customizer {
                                                                     display: block;
@@ -1067,7 +1067,7 @@
 						.flairselector .error {text-align: left;}
 							.flairselector .error:first-letter {text-transform: capitalize;}
 							.flairselector .error:after {
-								display: block; 
+								display: block;
 								color: #b3b3b3;
 								content: "Go to /r/.../about/flair";
 							}
@@ -1111,7 +1111,7 @@
 
 						.res .entry {transition: all 0.10s ease;}
 
-						div.RES-keyNav-activeElement, 
+						div.RES-keyNav-activeElement,
 						div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
 							background-color: transparent !important;
 							padding-left: 8px !important;
@@ -1422,7 +1422,7 @@
 
 					.titlebox .users-online .number:after {content: " currently online";}
 					.titlelebox .word {display: none;}
-					.titlebox .users-online, .titlebox .number {cursor: text;}	
+					.titlebox .users-online, .titlebox .number {cursor: text;}
 
 
 				/* Subscribe Button */
@@ -1547,7 +1547,7 @@
 
 						#search input[type=text]::-webkit-input-placeholder {color:#B3B3B3;}
 						#search input[type=text]:-moz-placeholder {color:#B3B3B3;}
-						#search input[type=text]::-moz-placeholder {color:#B3B3B3;} 
+						#search input[type=text]::-moz-placeholder {color:#B3B3B3;}
 						#search input[type=text]:-ms-input-placeholder {color:#B3B3B3;}
 
 						#search input[type=submit] {
@@ -1608,7 +1608,7 @@
 
 				box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0px 4px 0 rgba(0,0,0,.12);
 				transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
-			}	
+			}
 
 				.morelink:hover {
 					background-color: #158be2;
@@ -1664,7 +1664,7 @@
 
 			/* Login form */
 			.login-form-side {
-				border: none; 
+				border: none;
 				border-bottom: 1px solid #edf1f3;
 				padding-bottom: 8px;
 			}
@@ -1674,8 +1674,8 @@
 
 			.login-form-side button.btn {margin-right: -3px;}
 
-				
-			
+
+
 			/* Titlebox "Info" */
 			.titlebox {
 
@@ -1701,19 +1701,19 @@
 					    height: 2px;
 					    background-color: #f2f2f2;
 					    display: block;
-					    margin-top: 16px;	
+					    margin-top: 16px;
 					}
 
 				.titlebox .tagline a.flairselectbtn {
 					color: #24a0ed;
-				}	
+				}
 
 			.leavemoderator, .titlebox .tagline a.author, .titlebox form.toggle.leavecontributor-button {display: none;}
 			.titlebox form.flairtoggle {line-height: 2;}
 			.titlebox form.toggle.sr_style_toggle {padding-bottom: 0px;display: block;background-color: transparent;}
 			.titlebox form.toggle.sr_style_toggle label {position: relative;top: -3px;}
 
-			
+
 
 
 			/* Sidebar Description */
@@ -1933,7 +1933,7 @@
 					}
 
 						.commentarea .menuarea .toggle a:hover, .help-hoverable:hover {color: #24a0ed;}
-						
+
 						.help-hoverable {
 							font-size: x-small;
 						}
@@ -1970,7 +1970,7 @@
 					border: 1px solid #d8e0e5;
 					color: #292f34;
 				}
-				
+
 				/* Gilding */
 				.gilded-icon:before {
 					background: url(%%gilded%%);
@@ -2255,7 +2255,7 @@
 				margin: 0 auto;
 			}
 
-				.submit-page #newlink.submit.content form .spacer+.spacer {margin: 0;} 
+				.submit-page #newlink.submit.content form .spacer+.spacer {margin: 0;}
 
 
 				.submit-page #newlink.submit.content ul.tabmenu.formtab {
@@ -2437,8 +2437,8 @@
 						min-width: 0px;
 						padding: 0;
 					}
-		
-		
+
+
 					.combined-search-page .search-result-group .search-result-group-header {
 						height: 36px;
 						line-height: 38px;
@@ -2454,7 +2454,7 @@
 						}
 
 							.combined-search-page .search-result-group .search-menu {margin-right: 16px;}
-		
+
 						.combined-search-page .search-result-group .search-menu .dropdown.lightdrop .selected {
 							color: #738491;
 							text-decoration: none;
@@ -2464,7 +2464,7 @@
 
 					/* Subreddits */
 					.combined-search-page .content > div:nth-of-type(2) {
-						
+
 					}
 
 						.combined-search-page .content > div:nth-of-type(2) .search-result-group-header  {}
@@ -2493,28 +2493,28 @@
 								.search-result-subreddit .search-result-meta span.search-time {display: none;}
 
 								.combined-search-page .content > div:nth-of-type(2) .nav-buttons {}
-		
-		
+
+
 					/* Item */
 					.combined-search-page .search-result {
 						margin: 16px 0 20px 0;
 					}
-		
+
 						.combined-search-page .search-result .search-result-header .search-title {
 							color: #24a0ed;
 						}
-		
+
 						.combined-search-page .search-result .search-result-meta {color: #738491;}
-		
+
 						.combined-search-page .search-result a, .combined-search-page .search-result a>mark {
 							color: #24a0ed;
 						}
-		
+
 						.combined-search-page .search-result-subreddit .search-subscribe-button {
 							border-radius: 2px;
 						}
-		
-		
+
+
 							.combined-search-page .search-result-subreddit .search-subscribe-button .add,
 							.combined-search-page .search-result-subreddit .search-subscribe-button .add:active
 							 {
@@ -2522,16 +2522,16 @@
 								border: none;
 								border-radius: 2px;
 							}
-			
+
 							.combined-search-page .search-result-subreddit .search-subscribe-button .remove,
 							.combined-search-page .search-result-subreddit .search-subscribe-button .remove:active {
 								background-color: transparent;
 								border: 1px solid #98abba;
 								color: #738491;
 							}
-		
+
 							.combined-search-page .search-result .search-comments {color: #24a0ed;}
-		
+
 							.combined-search-page .search-result.has-thumbnail>.thumbnail {
 								margin-left: 0px;
 								margin-right: 16px;
@@ -2541,7 +2541,7 @@
 					.combined-search-page .search-result-group footer .nav-buttons {
 						margin: 0 0 16px 0;
 					}
-		
+
 				.nextprev, .next-suggestions {color: #738491;}
 
 
@@ -2568,14 +2568,14 @@
 				.search-page .morelink {top: 384px;}
 				.search-page .side {margin-top: 264px;}
 
-				
+
 
 
 
 			/* Wiki Page */
 			.wiki-page .wikititle {
 				background-color: #fff;
-				padding: 9px 16px 10px 16px; 
+				padding: 9px 16px 10px 16px;
 				border-radius: 2px;
 				box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
 				font-size: 16px;
@@ -3043,7 +3043,7 @@
 							}
 
 						.toggleButton {
-							
+
 						}
 
 							.toggleButton .toggleOn, .toggleButton .toggleOff  {
@@ -3181,7 +3181,7 @@
 		   100% {transform:scale(1.5,1.5);			-webkit-transform:scale(1.5,1.5); opacity: 0;}
 		}
 	/* ==============================================================================================================================
-		
+
 											/////
 					End of basic Naut. Add your customizations or any addons below here!
 											/////
